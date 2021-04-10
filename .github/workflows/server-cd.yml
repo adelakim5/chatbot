@@ -28,4 +28,4 @@ jobs:
           SSH_HOST: ${{ secrets.GCP_HOST }}
 
       - name: Run Build
-        run: ssh master 'cd ~/kakao-chatbot-TTbot && git checkout master && sh pull.sh'
+        run: ssh master 'cd ~/kakao-chatbot-TTbot && git checkout master && sh pull.sh && pm2 restart chatbot'

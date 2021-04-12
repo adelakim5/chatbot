@@ -1,5 +1,5 @@
 const eachBlocksize = 9;
-const hostNumber = "34.64.132.100:3000";
+const hostNumber = "34.82.41.42:3000";
 const questionNumbers = {
   0: "energy",
   1: "information",
